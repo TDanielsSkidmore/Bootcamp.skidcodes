@@ -1,15 +1,5 @@
-<html>
+<%@ include file="common/header.jspf" %>
+<%@ include file="common/navbar.jspf" %>
+<h1>Hello ${user_name}, welcome to your To-Dos</h1>
 
-	<head>
-		<title>Welcome</title>
-	</head>
-	
-	<body>
-	
-		<h1>Hello welcome to To-Dos</h1>
-	
-	</body>
-
-
-
-</html>
+<%@ include file="common/footer.jspf" %>
